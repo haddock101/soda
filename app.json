@@ -20,17 +20,19 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "splash": "yes",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
     },
     "plugins": [
-      "expo-router",
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#232323",
+          "image": "../assets/shse-logo-tb.png",
+          "resizeMode": "contain",
+          "imageWidth": 200
         }
       ]
     ],
