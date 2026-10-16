@@ -33,6 +33,9 @@ yarn-error.*
 # local env files
 .env*.local
 
+# local vscode settings
+.vscode.old/
+
 # typescript
 *.tsbuildinfo
 
@@ -49,3 +52,4 @@ example
 # lock files
 package-lock.json
 bun.lock
+
