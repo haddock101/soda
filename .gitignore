@@ -45,3 +45,7 @@ example
 # shell scripts
 *.sh
 *.zsh
+
+# lock files
+package-lock.json
+bun.lock
